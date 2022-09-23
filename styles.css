@@ -32,6 +32,7 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
@@ -59,6 +60,9 @@ h2 {
 
 /* QUESTION 1 */
 
+.red {
+  background-color: red;
+}
 .orange {
   background-color: orange;
 }
@@ -91,18 +95,28 @@ h2 {
   background-color: #000;
 }
 
+#white {
+  background-color: white;
+}
+
+.light-blue {
+  background-color: #51ADDA;
+}
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  background-color: #EF3340;
+  height: 16.7%;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: white;
+  height: 16.7%
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #00247D;
+  height: 33.3%;
 }
 
 /* END QUESTION 2 */
@@ -129,13 +143,25 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  max-height: auto;
+  max-width: 25.5%;
+  align-self: center;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .mexico-red {
   background-color: #ce1126;
 }
 
+.label {
+  color: #770737;
+}
+
+.label:hover {
+  color: #EE6363;
+  font-size: 150%;
+}
 /* QUESTION 6 */
 .margin-container {
   height: 300px;
@@ -161,5 +187,5 @@ h2 {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding: 47.5px 97.6px;
 }
